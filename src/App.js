@@ -30,7 +30,7 @@ export default function App() {
   }
 
   return (
-    <div className="border-0 md:container md:max-w-xl md:border p-10 m-auto mt-20 ">
+    <div className="container border-0 max-w-sm  md:container md:max-w-xl md:border p-10 m-auto mt-20 ">
       <div className="max-w-sm  flex justify-center flex-col items-center m-auto md:max-w-[500px]">
         <Logo />
         <Form onAddLists={handleNewLists} />
